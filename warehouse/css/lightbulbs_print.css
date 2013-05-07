@@ -1,0 +1,313 @@
+/*
+	Body & Html
+*/
+	body{
+		background-color:#ffffff;
+		text-align:center;
+		margin:0 auto auto auto;
+	}
+	body,td,th {
+		font-family: Verdana, Arial, Helvetica, sans-serif;
+		font-size: 11px;
+		color: #000000;
+	}
+	body, html{
+		height:100%;
+		padding:0;
+	}
+	
+/*
+	Wrapper
+*/
+	#Wrapper{
+		width:100%;
+		margin:0 auto auto auto;
+		padding:0;
+		min-height:100%;
+		float:left;
+		clear:both;
+	}
+	*html #Wrapper{
+		height:100%;
+	}
+	
+/*
+	Links
+*/
+	a:link {
+		color: #2A599D;
+		text-decoration: none;
+	}
+	a:visited {
+		text-decoration: none;
+		color: #666666;
+	}
+	a:hover {
+		text-decoration: none;
+	}
+	a:active {
+		text-decoration: none;
+	}
+/*
+	Images
+*/
+	img{
+		border:0;
+	}
+/*
+	Headings
+*/
+	h1{
+		font:"Myriad", Arial, Helvetica, sans-serif;
+		font-size:18px;
+		font-weight:normal;
+		margin:0;
+		padding:0;
+	}
+	h1.pageTitle{
+		margin-top:15px;
+	}
+	h3{
+		font:"Myriad", Arial, Helvetica, sans-serif;
+		font-size:14px;
+		font-weight:bold;
+		margin:0;
+		padding:0;
+	}
+/*
+	Paragraphs
+*/
+	p{
+		margin:0;
+		padding:0;
+		padding-bottom:15px;
+	}
+/* 
+	Breadcrumbs
+*/
+	.breadcrumb{
+		font-size:10px;
+		color:#838383;
+	}
+	.breadcrumb a{
+		color:#838383;
+	}
+	.breadcrumb a:hover{
+		color:#2A599D;
+		background-color:#DDEAFF;
+	}
+
+/*
+	Header
+*/
+	#Header{
+		height:138px;
+		margin:0;
+		padding:0;
+		width:100%;
+		border:0;
+		float:left;
+		clear:both;
+	}
+	#Header .logo{
+		margin:0;
+		padding:0;
+		float:left;
+		clear:both;
+		margin-bottom:2px;
+		border:0;
+	}
+	#Header .callTag{
+		position:absolute;
+		top:47px;
+		right:30px;
+	}
+	#Header ul.nav{
+		display:none;
+	}
+
+/*
+	Call Tag
+*/
+	.callTag{
+		font-family:Arial, Helvetica, sans-serif;
+		font-weight:bold;
+		color:#3E62B5;
+		font-size:11px;
+	}
+	.callTag .phone{
+		font-size:12px;
+		color:#212838;
+	}
+	
+/*
+	Nav Bar
+*/
+	#NavBar{
+		display:none;
+	}
+
+/*
+	Search Bar
+*/
+	#SearchBar{
+		display:none;
+	}
+/*
+	Forms
+*/
+	form{
+		margin:0;
+		padding:0;
+	}
+	.submit,
+	.greySubmit,
+	.smallBtn{
+		background-image:url(../images/template/bg_btn_1.gif);
+		background-repeat:repeat-x;
+		background-color:#FC9002;
+		border:1px solid #6F7687;
+		font-family:Verdana, Arial, Helvetica, sans-serif;
+		font-size:10px;
+		color:#000000;
+		padding:4px 3px 3px 3px;
+		margin:0;
+	}
+	.greySubmit{
+		background-image:url(../images/template/bg_btn_grey_1.gif);
+		background-color:#9AA1B2;
+	}
+	.smallBtn{
+		font-size:9px;
+		padding:1px 5px 0px 5px;
+		background-image:url(../images/template/bg_btn_2.gif);
+	}
+/*
+	Cap Top
+*/
+	#CapTop{
+		display:none;
+	}
+	
+/*
+	Page
+*/
+	#Page{
+		margin:0;
+		margin-left:0px;
+		margin-right:0px;
+		background-color:#ffffff;
+		clear:both;
+		text-align:left;
+		padding:10px 20px 20px 20px;
+	}
+/*
+	Page Footer
+*/
+	#PageFooter{
+		border-top:1px solid #FA8F00;
+		clear:both;
+		margin:0;
+		margin-left:0px;
+		margin-right:0px;
+		background-color:#E7EAF0;
+		text-align:left;
+		font-size:10px;
+		color:#1F2636;
+		padding-top:15px;
+		padding-bottom:15px;
+		padding-left:16px;
+		padding-right:16px;
+	}
+	#PageFooter ul.links{
+		margin:0;
+		padding:0;
+		display:inline;
+	}
+	#PageFooter ul.links li{
+		margin:0;
+		padding:0;
+		display:inline;
+		list-style:none;
+	}
+	#PageFooter .links li a{
+		margin:0;
+		padding-right:15px;
+		display:inline;
+		white-space:nowrap;
+		color:#1F2636;
+	}
+	#PageFooter .copyright{
+		color:#455877;
+		font-size:9px;
+		padding:0;
+		clear:both;
+	}
+	
+/*
+	Left Nav
+*/
+	#LeftNav{
+		display:none;
+	}
+/*
+	Right Nav
+*/
+	#RightNav{
+		display:none;
+	}
+
+	
+/*
+	Sub Categories Table
+*/
+table.subCategories,
+table.catProducts{
+	width:100%;
+	border:0;
+}
+table.subCategories th,
+table.catProducts th{
+	border-bottom:1px solid #aaaaaa;
+	padding:5px;
+	font-family:"Myriad", Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size:12px;
+	text-align:left;
+	color:#666666;
+}
+table.subCategories td,
+table.catProducts td{
+	padding:5px;
+}
+table.catProducts th{
+	border:0;
+	background-color:#E7EAF0;
+	border-bottom:2px solid #C4C7CF;
+}
+table.catProducts td{
+	border:0;
+	background-color:#F8F9FC;
+	border-bottom:1px solid #C4C7CF;
+}
+table.catProducts td.price{
+	color:#CC0000;
+	font-weight:bold;
+	font-family:"Myriad", Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+
+.smallGreyText{
+	color:#666666;
+	font-size:10px;
+}
+.oldPrice{
+	text-decoration:line-through;
+	font-weight:bold;
+}
+.currentPrice{
+	color:#CC0000;
+	font-size:14px;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+}

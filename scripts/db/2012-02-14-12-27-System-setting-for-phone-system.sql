@@ -1,0 +1,2 @@
+INSERT INTO `settings` (`Property`, `Value`, `Description`, `Type`) VALUES ('phone_system_not_received_order_cost', 10, 'Defines the threshold for creating an automated replacement order of the cost price of any product registered as not received.', 'string');
+INSERT INTO `settings` (`Property`, `Value`, `Description`, `Type`) VALUES ('phone_system_faulty_cost', 5, 'Defines the combined threshold for creating an automated replacement order of the cost price of all selected products registered as faulty or broken in transit.', 'string');

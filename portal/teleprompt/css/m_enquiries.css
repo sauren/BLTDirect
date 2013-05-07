@@ -1,0 +1,50 @@
+/*
+	Links
+*/
+
+a.enquiryHiddenDocument,
+a.enquiryHiddenDocument:visited,
+a.enquiryHiddenDocument:active {
+	color: #999;
+}
+
+a.enquiryHiddenDocument:hover {
+	color: #000;
+}
+
+
+/*
+	Spans
+*/
+
+span.enquiryLightText {
+	color: #999;
+}
+
+
+/*
+	Input
+*/
+
+input.btn {
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+
+/*
+	Tables
+*/
+
+table.enquiryForm {
+	width: 95%;
+}
+
+table.enquiryForm td {
+	padding: 0 10px 0 0;
+}
+
+table td.enquiryBlock {
+	background-color: #eee;
+	padding: 10px;
+}

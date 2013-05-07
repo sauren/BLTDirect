@@ -1,0 +1,34 @@
+/* Body */
+body {
+	margin:0;
+	padding:20px;
+	background-color: #FFFFFF;
+	
+	scrollbar-arrow-color:#65686A;
+	scrollbar-base-color:#ffffff;
+	scrollbar-shadow-color:#ABABAB;
+	scrollbar-face-color:#E0E3E5;
+	scrollbar-highlight-color:#ffffff;
+	scrollbar-darkshadow-color:#ffffff;
+	scrollbar-3dlight-color:#A9ACAE;
+	SCROLLBAR-TRACK-COLOR: #F0F3F5;
+}
+body,td,th {
+	color: #000000;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	/*font-family:"Arial Unicode MS", Arial, Helvetica, sans-serif;*/
+	font-size: 11px;
+}
+a:link,
+a:visited{
+	color: #FF3300;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+	color: #000000;
+}
+a:active {
+	text-decoration: none;
+}
+

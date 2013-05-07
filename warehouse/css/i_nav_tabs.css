@@ -1,0 +1,19 @@
+body,td,th {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+}
+body {
+	margin: 0px;
+	background-color:#5C6B80;
+}
+
+.tabs{
+	background-image:url(../images/hlpWin_bg_2.gif);
+}
+
+#locStr{
+	position:relative;
+	top:5px;
+	padding:0 7px 0 7px;
+}

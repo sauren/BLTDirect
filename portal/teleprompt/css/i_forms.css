@@ -1,0 +1,49 @@
+form{
+	padding:0;
+	margin:0;
+	display:inline;
+}
+
+.checkBoxes{
+	width:20px;
+}
+
+.btn{
+	padding-left:10px;
+	padding-right:10px;
+	background:#E3E3E3;
+	background-image:url(../images/bg_btn_1.gif);
+	background-repeat:repeat-x;
+	border:3px double #A0A9B2;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	height:22px;
+}
+
+.inputTxt{
+	border:1px solid #5C6B80;
+	padding-left:5px;
+}
+
+.window_1 .inputTxt,
+.window_2 .inputTxt{
+	padding-left:5px;
+	border:1px solid #B9BFC3;
+}
+
+.inputTxtError{
+}
+
+fieldset{
+	border:0;
+	padding:0;
+	margin:0;
+}
+
+.required{
+	color:#990000;
+}
+
+input{
+	font-family:"Arial Unicode MS", Arial, Helvetica, sans-serif;
+}
