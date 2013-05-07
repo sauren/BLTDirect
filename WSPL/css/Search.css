@@ -1,0 +1,96 @@
+.SearchBox {
+	border: 1px solid #999;
+	margin: 0 0 10px 0;
+	width:100%;
+}
+
+.SearchBox #AdvancedSearchToggle {
+	padding: 10px 10px 10px 30px;
+	background-repeat: no-repeat;
+	background-position: 7px center;
+	cursor: pointer;
+}
+.SearchBox #AdvancedSearchToggle a {
+	color: #000;	
+}
+.SearchBox #AdvancedSearchToggle a:hover {
+	color: #FF9200;	
+}
+.SearchBox .Plus {
+	background-image: url(../images/template/icon_plus_1.gif);
+}
+
+#AdvancedSearchToggle a {
+	padding-right: 20px;
+	outline: 0;
+}
+
+#AdvancedSearchToggle a.Loading {
+	background: url(../images/loading.gif) right no-repeat;
+}
+
+.SearchBox .Minus {
+	background-image: url(../images/template/icon_minus_1.gif);
+	border-bottom: 1px dashed #999;
+}
+
+.SearchBox #SearchInformation {
+	padding: 10px;
+}
+.SearchBox #SearchInformation p {
+	padding: 0;
+	margin: 0;
+}
+
+.SearchBox #SearchField {
+	padding: 10px;
+}
+.SearchBox #SearchField p {
+	padding: 0;
+	margin: 0;
+}
+.Search table.Specs {
+	width: 75%;
+	font-size:15px;
+	border-collapse: collapse;
+}
+.Search table.Specs td,
+.Search table.Specs th {
+	padding-left: 5px;
+}
+.Search table.Specs th {
+	text-align: left;
+	font-weight: normal;
+	width: 20%;
+}
+.Search table.Specs tr.bgdark th,
+.Search table.Specs tr.bgdark td {
+	background-color: #eee;	
+}
+.Search table.Specs th a {
+	color: #f00;	
+}
+.Search table.Specs td a {
+	color: #FF9200;
+}
+.Search table.Specs th a:hover,
+.Search table.Specs td a:hover {
+	color: #666;
+}
+.Search table.SpecValues {
+	width: 75%;
+}
+.Search table.SpecValues td {
+	padding: 0;
+}
+.Search table.SpecValues td span {
+	color: #6A6A6A;
+}
+.Search div.Filters {
+	padding: 5px;
+	border-bottom: 1px dashed #999;
+}
+.Search div.Filters p {
+	padding: 0;
+	margin: 0;
+}

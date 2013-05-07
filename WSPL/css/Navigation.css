@@ -1,0 +1,614 @@
+.NavLeftBar,
+.NavRightBar {
+	background-color:#4D5567;
+	background-repeat:no-repeat;
+}
+.NavLeftBar {
+	background-image:url(../images/template/bg_navLeft_bar_1.jpg);
+}
+.NavRightBar {
+	background-image:url(../images/template/bg_navLeft_bar_1.jpg);
+}
+
+.NavLeftBar .title,
+.NavRightBar .title {
+	color:#D8DBE0;
+	padding:7px 0 10px 10px;
+	margin:0;
+	text-align:left;
+	display:block;
+}
+.NavLeftBarCatalogue .title {
+	padding-left:30px;
+	background-image:url(../images/icons/box.png);
+	background-repeat:no-repeat;
+	background-position: 8px center;
+}
+.NavRightBarShopping .title {
+	padding-left:30px;
+	background-image:url(../images/icons/shopping-basket.png);
+	background-repeat:no-repeat;
+	background-position: 8px center;
+}
+.NavRightBarFinder .title {
+	padding-left:30px;
+	background-image:url(../images/icons/magnifier.png);
+	background-repeat:no-repeat;
+	background-position: 8px center;
+}
+.NavRightBarBarcode .title {
+	padding-left:30px;
+	background-image:url(../images/icons/barcode-2d.png);
+	background-repeat:no-repeat;
+	background-position: 8px center;
+}
+.NavLeftBar .title a,
+.NavRightBar .title a {
+	color: #D8DBE0;	
+}
+.NavLeftBar .title a:hover,
+.NavRightBar .title a:hover {
+	color: #ffffff;	
+}
+
+.NavLeftCap,
+.NavRightCap {
+	height:14px;
+	background-repeat:no-repeat;
+	cursor: pointer;
+}
+.NavLeftCap {
+	width:159px;
+	background-image:url(../images/template/bg_navLeft_cap_1.jpg);
+}
+.NavRightCap {
+	width:150px;
+	background-image:url(../images/template/bg_navRight_cap_1.jpg);
+}
+
+.NavLeftOption,
+.NavRightOption {
+	height:22px;
+	background-repeat:no-repeat;
+}
+.NavLeftOption {
+	width:159px;
+	background-image:url(../images/template/bg_navLeft_options_sprite_1.gif);
+}
+.NavRightOption {
+	width:150px;
+	background-image:url(../images/template/bg_navRight_options_sprite_1.gif);
+}
+.NavLeftOption a,
+.NavRightOption a {
+	height:22px;
+	display: block;
+	color:#FFFFFF;
+	padding:0 0 0 23px;
+	margin:0;
+	line-height: 20px;
+	text-align:left;
+	background-repeat: no-repeat;
+}
+.NavLeftOption a:hover {
+	color:#FFFFFF;
+	background-image:url(../images/template/bg_navLeft_options_sprite_1.gif);
+	background-position: 0 -22px;
+	background-repeat: no-repeat;
+}
+.NavRightOption a:hover {
+	color:#FFFFFF;
+	background-image:url(../images/template/bg_navRight_options_sprite_1.gif);
+	background-position: 0 -22px;
+	background-repeat: no-repeat;
+}
+
+.NavLeftOffers {
+	background-color: #A42222;
+	background-image: url(../images/template/bg_navLeft_offers_1.jpg);
+	background-repeat: no-repeat;
+	padding-top: 66px;
+}
+.NavLeftOffersLink {
+	color: #462404;
+	background-repeat: no-repeat;
+	height: 25px;
+}
+.NavLeftOffersLink a {
+	color: #ffffff;
+	display: block;
+	line-height: 26px;
+	padding: 1px 0 0 8px;
+	background-image: url(../images/template/bg_navLeft_links_sprite_1.jpg);
+	background-position: 0 0;
+}
+.NavLeftOffersLink a:hover {
+	background-position: 0 -26px;
+}
+.NavLeftOfferItem {
+	height: 94px;
+	color: #FF9D9D;
+	font-size: 11px;
+	padding: 0 10px 0 17px;
+	overflow: hidden;
+}
+.NavLeftOfferItem p {
+	margin: 0;
+	padding: 0;
+}
+.NavLeftOfferItem .offerWhite {
+	color: #fff;
+}
+.NavLeftOfferItem .offerPercentage {
+	font-size: 26px;
+}
+.NavLeftOfferItem .offerOff {
+	font-size: 19px;
+}
+.NavLeftOfferItem .offerPrice {
+	font-size: 12px;
+	padding: 3px 0 0 0;
+}
+.NavLeftOfferItem a {
+	color: #FF9D9D;	
+}
+.NavLeftOfferItem a:hover {
+	color: #FFC9C9;	
+}
+.NavLeftOfferImage {
+	text-align: center;
+	height: 75px;
+	padding: 0 0 5px 0;
+}
+.NavLeftOfferNav {
+	height: 20px;
+	padding: 6px 0 0 0;
+	text-align: center;
+}
+.NavLeftOfferNav img {
+	cursor: pointer;	
+}
+
+.NavLeftBase {
+	background-color: #064882;
+	background-image: url(../images/template/bg_navLeft_base_1.jpg);
+	background-repeat: no-repeat;
+	padding-top: 160px;
+}
+.NavLeftBaseLink {
+	color: #462404;
+	background-repeat: no-repeat;
+	height: 25px;
+}
+.NavLeftBaseLink a {
+	color: #ffffff;
+	display: block;
+	line-height: 26px;
+	padding: 1px 0 0 8px;
+	background-image: url(../images/template/bg_navLeft_links_sprite_1.jpg);
+	background-position: 0 -52px;
+}
+.NavLeftBaseLink a:hover {
+	background-position: 0 -78px;
+}
+
+.NavLeftTube {
+	background-color: #87005E;
+	background-image: url(../images/template/bg_navLeft_tube_1.jpg);
+	background-repeat: no-repeat;
+	padding-top: 160px;
+}
+.NavLeftTubeLink {
+	color: #462404;
+	background-repeat: no-repeat;
+	height: 25px;
+}
+.NavLeftTubeLink a {
+	color: #ffffff;
+	display: block;
+	line-height: 26px;
+	padding: 1px 0 0 8px;
+	background-image: url(../images/template/bg_navLeft_links_sprite_1.jpg);
+	background-position: 0 -104px;
+}
+.NavLeftTubeLink a:hover {
+	background-position: 0 -130px;
+}
+
+.NavLeftEnergy {
+	background-color: #1AC008;
+	background-image: url(../images/template/bg_navLeft_energy_1.jpg);
+	background-repeat: no-repeat;
+	padding-top: 134px;
+}
+.NavLeftEnergyLink {
+	color: #462404;
+	background-repeat: no-repeat;
+	height: 25px;
+}
+.NavLeftEnergyLink a {
+	color: #ffffff;
+	display: block;
+	line-height: 26px;
+	padding: 1px 0 0 8px;
+	background-image: url(../images/template/bg_navLeft_links_sprite_1.jpg);
+	background-position: 0 -156px;
+}
+.NavLeftEnergyLink a:hover {
+	background-position: 0 -182px;
+}
+
+.NavLeftTemperature {
+	background-color: #1FA6D3;
+	background-image: url(../images/template/bg_navLeft_temp_1.jpg);
+	background-repeat: no-repeat;
+	padding-top: 160px;
+}
+.NavLeftTemperatureLink {
+	color: #462404;
+	background-repeat: no-repeat;
+	height: 25px;
+}
+.NavLeftTemperatureLink a {
+	color: #ffffff;
+	display: block;
+	line-height: 26px;
+	padding: 1px 0 0 8px;
+	background-image: url(../images/template/bg_navLeft_links_sprite_1.jpg);
+	background-position: 0 -208px;
+}
+.NavLeftTemperatureLink a:hover {
+	background-position: 0 -234px;
+}
+
+.NavLeftBeam {
+	background-color: #270F0A;
+	background-image: url(../images/template/bg_navLeft_beam_1.jpg);
+	background-repeat: no-repeat;
+	padding-top: 186px;
+}
+.NavLeftBeamLink {
+	color: #ffffff;
+	background-repeat: no-repeat;
+	height: 25px;
+}
+.NavLeftBeamLink a {
+	color: #ffffff;
+	display: block;
+	line-height: 25px;
+	padding: 1px 0 0 8px;
+	background-image: url(../images/template/bg_navLeft_links_sprite_1.jpg);
+	background-position: 0 -260px;
+}
+.NavLeftBeamLink a:hover {
+	background-position: 0 -286px;
+}
+
+.NavRightDelivery {
+	background-color: #E65B00;
+	background-image: url(../images/template/bg_navRight_delivery_1.jpg);
+	background-repeat: no-repeat;
+	padding-top: 147px;
+}
+.NavRightDeliveryLink {
+	color: #462404;
+	background-repeat: no-repeat;
+	height: 25px;
+}
+.NavRightDeliveryLink a {
+	color: #ffffff;
+	display: block;
+	line-height: 25px;
+	padding: 1px 0 0 8px;
+	background-image: url(../images/template/bg_navRight_links_sprite_1.jpg);
+	background-position: 0 0;
+}
+.NavRightDeliveryLink a:hover {
+	background-position: 0 -26px;
+}
+
+.NavRightSecurityMcAfee {
+	display:block;
+	text-align:center;
+	background-color: #fff;
+	background-image:url(../images/template/bg_navRight_security_1.jpg);
+	background-repeat:no-repeat;
+	padding-top:58px;
+	height: 89px;
+}
+.NavRightSecurityLink {
+	color: #462404;
+	background-color: #FEEE96;
+	background-repeat: no-repeat;
+	height: 25px;
+}
+.NavRightSecurityLink a {
+	color: #462404;
+	display: block;
+	line-height: 25px;
+	padding: 1px 0 0 8px;
+	background-image: url(../images/template/bg_navRight_links_sprite_1.jpg);
+	background-position: 0 -52px;
+}
+.NavRightSecurityLink a:hover {
+	background-position: 0 -78px;
+}
+
+.NavLeftCatalogue ul {
+	margin:0;
+	padding:0;
+	display:inline;
+}
+.NavLeftCatalogue ul li {
+	margin:0;
+	padding:0;
+	list-style-type:none;
+	display:inline;
+}
+.NavLeftCatalogue ul li a {
+	padding:4px 10px 4px 14px;
+	background-color:#F8F9FC;
+	border-top:1px solid #C4C7CF;
+	display:block;
+	background-image:url(../images/template/bg_navLeft_catalogueRoot_1.gif);
+	background-repeat:repeat-y;
+	background-position:right;
+	color:#000000;
+}
+.NavLeftCatalogue ul li a.christmas {
+	background-image:url(../images/template/bg_navLeft_catalogueRoot_2.gif);
+	background-repeat:no-repeat;
+}
+
+.NavLeftCatalogue ul li a.halloween,
+.NavLeftCatalogue ul li a.halloween:hover {
+	background-image:url(../images/pumpkin.png);
+	background-repeat:no-repeat;
+	background-position: 10px center !important;
+	padding-left:40px;
+}
+
+.NavLeftCatalogue ul li a:hover {
+	background-image:url(../images/template/bg_navLeft_catalogueSelected_1.gif);
+	background-color:#FFA226;
+	color: #ffffff;
+}
+.NavLeftCatalogue ul li a.christmas:hover {
+	background-image:url(../images/template/bg_navLeft_catalogueSelected_2.gif);
+}
+
+
+
+
+.NavLeftCatalogue ul ul li a {
+	border-left:14px solid #C4C7CF;
+	background-color:#E7EAF0;
+	background-image:url(../images/template/bg_navLeft_catalogueSub_1.gif);
+}
+
+.NavRightCatalogue ul {
+	margin:0;
+	padding:0;
+	display:inline;
+}
+.NavRightCatalogue ul li {
+	margin:0;
+	padding:0;
+	list-style-type:none;
+	display:inline;
+}
+.NavRightCatalogue ul li a {
+	padding:4px 10px 4px 14px;
+	background-color:#F8F9FC;
+	border-top:1px solid #C4C7CF;
+	display:block;
+	background-image:url(../images/template/bg_navRight_catalogueRoot_1.gif);
+	background-repeat:repeat-y;
+	background-position:left;
+	color:#000000;
+}
+.NavRightCatalogue ul li a:hover {
+	background-image:url(../images/template/bg_navRight_catalogueSelected_1.gif);
+	background-repeat:repeat-y;
+	background-position:left;
+	background-color:#FFA226;
+	color: #ffffff;
+}
+.NavRightCatalogue ul ul li a {
+	border-left:14px solid #C4C7CF;
+	background-color:#E7EAF0;
+	background-image:url(../images/template/bg_navRight_catalogueSub_1.gif);
+}
+
+.NavRightFinder {
+	padding: 4px 10px;
+}
+
+.bulbFinderForm .loader{
+	background-image:url(../images/slimbox/ajax-loader-large.gif);
+	background-repeat:no-repeat;
+	display: none;
+	height:69px;
+	position: relative;
+	top:25px;
+	left:50px;
+}
+
+.bulbFinderForm .results{
+	display: block;
+}
+
+
+.NavRightFinder .spacer {
+	padding-top: 8px;
+}
+
+.NavRightBarcode {
+	text-align: center;
+	background-color: #bfbfbf;
+	height: 153px;
+}
+
+.NavOption {
+	background-repeat:no-repeat;
+}
+.NavLeftOptionWhite {
+	background-image:url(../images/template/bg_navLeft_options_sprite_1.gif);
+	background-position: 0 -44px;
+}
+.NavLeftOptionRed {
+	background-image:url(../images/template/bg_navLeft_options_sprite_1.gif);
+	background-position: 0 -66px;
+}
+.NavLeftOptionBlue {
+	background-image:url(../images/template/bg_navLeft_options_sprite_1.gif);
+	background-position: 0 -88px;
+}
+.NavLeftOptionPink {
+	background-image:url(../images/template/bg_navLeft_options_sprite_1.gif);
+	background-position: 0 -110px;
+}
+.NavLeftOptionGreen {
+	background-image:url(../images/template/bg_navLeft_options_sprite_1.gif);
+	background-position: 0 -132px;
+}
+.NavLeftOptionTurquoise {
+	background-image:url(../images/template/bg_navLeft_options_sprite_1.gif);
+	background-position: 0 -154px;
+}
+.NavLeftOptionBrown {
+	background-image:url(../images/template/bg_navLeft_options_sprite_1.gif);
+	background-position: 0 -176px;
+}
+.NavRightOptionWhite {
+	background-image:url(../images/template/bg_navRight_options_sprite_1.gif);
+	background-position: 0 -44px;
+}
+.NavRightOptionOrange {
+	background-image:url(../images/template/bg_navRight_options_sprite_1.gif);
+	background-position: 0 -66px;
+}
+.NavRightOptionYellow {
+	background-image:url(../images/template/bg_navRight_options_sprite_1.gif);
+	background-position: 0 -88px;
+}
+
+.NavRightCart table {
+	width:100%;
+	padding:0;
+	font-size:9px;
+	background-color:#4D5567;
+	border-collapse: collapse;
+}
+.NavRightCart table td,
+.NavRightCart table th {
+	font-size:9px;
+}
+.NavRightCart table td.price {
+	text-align:right;
+	background-color:#E7EAF0;
+	padding:4px 10px 5px 0;
+}
+.NavRightCart table td.qty {
+	text-align:left;
+	background-color:#E7EAF0;
+	padding:4px 5px 5px 10px;
+	background-image:url(../images/template/bg_miniCart_qty_1.gif);
+	background-repeat:repeat-y;
+	background-position:left;
+}
+.NavRightCart table td.product {
+	padding:4px 10px 5px 10px;
+	background-color:#F8F9FC;
+	border-top:1px solid #C4C7CF;
+	font-weight:bold;
+	background-image:url(../images/template/bg_miniCart_product_1.gif);
+	background-repeat:repeat-y;
+	background-position:left;
+}
+.NavRightCart table td.subTotal,
+.NavRightCart table td.subTotalPrice,
+.NavRightCart table td.shipping,
+.NavRightCart table td.shippingPrice,
+.NavRightCart table td.tax,
+.NavRightCart table td.taxPrice,
+.NavRightCart table td.total,
+.NavRightCart table td.totalPrice,
+.NavRightCart table td.discount,
+.NavRightCart table td.discountPrice {
+	color:#D7D8DC;
+	padding:5px 10px 4px 10px;
+	font-size:10px;
+}
+.NavRightCart table td.subTotalPrice,
+.NavRightCart table td.shippingPrice,
+.NavRightCart table td.taxPrice,
+.NavRightCart table td.totalPrice,
+.NavRightCart table td.discountPrice {
+	text-align:right;
+}
+.NavRightCart table td.subTotal,
+.NavRightCart table td.shipping,
+.NavRightCart table td.tax,
+.NavRightCart table td.total,
+.NavRightCart table td.discount {
+	background-image:url(../images/template/bg_miniCart_totals_1.gif);
+	background-repeat:repeat-y;
+	background-position:left;
+
+}
+.NavRightCart table td.total,
+.NavRightCart table td.totalPrice {
+	font-weight:bold;
+}
+.NavRightCart table a.info {
+	color:#F4F0C5;
+	font-size:9px;
+	padding:1px 15px 2px 5px;
+	background-image:url(../images/template/icon_info_1.gif);
+	background-repeat:no-repeat;
+	background-position:right;
+	float:right;
+}
+.NavRightCart table a:hover {
+	text-decoration:underline;
+}
+.NavRightCart table td.buttons {
+	height:34px;
+	background-image:url(../images/template/bg_miniCart_buttons_1.jpg);
+	background-repeat:no-repeat;
+	text-align:center;
+	padding:0;
+}
+.NavRightCart table tr.highlight td.price,
+.NavRightCart table tr.highlight td.qty {
+	background-color:#FFDCC4;
+}
+.NavRightCart table tr.highlight td.product {
+	background-color:#FFF1D6;
+}
+.NavRightCart table tr.highlight td.product a,
+.NavRightCart table tr.highlight td.price a,
+.NavRightCart table tr.highlight td.qty a {
+	color:#FF0000;
+}
+.NavRightCart table tr.highlight td.product,
+.NavRightCart table tr.highlight td.price,
+.NavRightCart table tr.highlight td.qty {
+	color:#ff0000;
+}
+.NavRightCart table tr.highlight td.qty {
+	background-image:url(../images/template/bg_miniCart_qty_2.gif);
+}
+.NavRightCart table tr.highlight td.product {
+	background-image:url(../images/template/bg_miniCart_product_2.gif);
+}
+.NavRightCart table tr.highlight td.totalPrice {
+	color:#ff0000;
+	background-color:#FFDCC4;
+}
+
+.panelMinimise{
+	height:0;
+	overflow:hidden;
+}

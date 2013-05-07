@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>Evance Debugger</title>
+		<link href="./Debugger.css" type="text/css" rel="stylesheet" />
+		<script language="javascript" type="text/javascript">
+		/*
+			Function: getStack()
+			gets the debug stack from the window being debugged
+			executed on page load.
+		*/
+			function getStack(){
+				opener.evance.core.Debugger.getStack();
+			}
+		/*
+			Function: addToStack()
+			adds a new debug item to the page. This is called from the
+			opening window that is being debugged.
+		*/
+			function addToStack(message){
+				var stackArea = document.getElementById('StackArea');
+				stackArea.innerHTML += '<div class="message">' + message.innerHTML + '</div>';
+			}
+		/*
+			Function: display()
+
+		*/
+			function display(id){
+				var kids = document.getElementById(id+'_children');
+				var plus = document.getElementById(id+'_plus');
+
+				if(kids.style.display == 'none'){
+					kids.style.display = '';
+					plus.innerHTML = '[-]';
+				} else {
+					kids.style.display = 'none';
+					plus.innerHTML = '[+]';
+				}
+			}
+		/*
+			Function: clearStack();
+			clears all items in the debug stack contained within the opening window.
+		*/
+			function clearStack(){
+				opener.evance.core.Debugger.clearStack();
+				var stackArea = document.getElementById('StackArea');
+				stackArea.innerHTML = '';
+			}
+		/*
+			Function: refreshStack();
+			refreshes values from objects/values within the opening window stack.
+			And, collapses all open items.
+		*/
+			function refreshStack(){
+				var stackArea = document.getElementById('StackArea');
+				stackArea.innerHTML = '';
+				getStack();
+			}
+		</script>
+	</head>
+	<body onload="getStack();">
+		<div id="TitleArea">
+			<h1>evance debugger</h1>
+			<p>evance.core.Debugger</p>
+			<ul class="tabs">
+				<li><a href="javascript:refreshStack();">Refresh</a></li>
+				<li><a href="javascript:clearStack();">Clear</a></li>
+			</ul>
+		</div>
+		<div id="StackArea">
+			<!-- load stack here -->
+		</div>
+		<div id="FooterArea">
+			<table>
+				<tr>
+					<td align="left">&copy; deveus, 2008</td>
+					<td align="right"><a href="http://www.deveus.com" target="_blank">www.deveus.com</a></td>
+				</tr>
+			</table>
+		</div>
+	</body>
+</html>
