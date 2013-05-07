@@ -1,0 +1,124 @@
+php_value memory_limit 128M
+php_value post_max_size 60M
+php_value upload_max_filesize 50M
+
+# Begin Bad Bot Blocking
+BrowserMatchNoCase OmniExplorer_Bot/6.11.1 bad_bot
+BrowserMatchNoCase omniexplorer_bot bad_bot
+BrowserMatchNoCase Baiduspider bad_bot
+BrowserMatchNoCase Baiduspider/2.0 bad_bot
+BrowserMatchNoCase yandex bad_bot
+BrowserMatchNoCase yandeximages bad_bot
+BrowserMatchNoCase Spinn3r bad_bot
+BrowserMatchNoCase sogou bad_bot
+BrowserMatchNoCase Sogouwebspider/3.0 bad_bot
+BrowserMatchNoCase Sogouwebspider/4.0 bad_bot
+BrowserMatchNoCase sosospider+ bad_bot
+BrowserMatchNoCase jikespider bad_bot
+BrowserMatchNoCase ia_archiver bad_bot
+BrowserMatchNoCase PaperLiBot bad_bot
+BrowserMatchNoCase ahrefsbot bad_bot
+BrowserMatchNoCase ahrefsbot/1.0 bad_bot
+BrowserMatchNoCase SiteBot/0.1 bad_bot
+BrowserMatchNoCase DNS-Digger/1.0 bad_bot
+BrowserMatchNoCase DNS-Digger-Explorer/1.0 bad_bot
+BrowserMatchNoCase boardreader bad_bot
+BrowserMatchNoCase radian6 bad_bot
+BrowserMatchNoCase R6_FeedFetcher bad_bot
+BrowserMatchNoCase R6_CommentReader bad_bot
+BrowserMatchNoCase ScoutJet bad_bot
+BrowserMatchNoCase ezooms bad_bot
+BrowserMatchNoCase CC-rget/5.818 bad_bot
+BrowserMatchNoCase libwww-perl/5.813 bad_bot
+BrowserMatchNoCase magpie-crawler 1.1 bad_bot
+BrowserMatchNoCase jakarta bad_bot
+BrowserMatchNoCase discobot/1.0 bad_bot
+BrowserMatchNoCase MJ12bot bad_bot
+BrowserMatchNoCase MJ12bot/v1.2.0 bad_bot
+BrowserMatchNoCase MJ12bot/v1.2.5 bad_bot
+BrowserMatchNoCase SemrushBot/0.9 bad_bot
+BrowserMatchNoCase MLBot bad_bot
+BrowserMatchNoCase butterfly bad_bot
+BrowserMatchNoCase SeznamBot/3.0 bad_bot
+BrowserMatchNoCase HuaweiSymantecSpider bad_bot
+BrowserMatchNoCase Exabot/2.0 bad_bot
+BrowserMatchNoCase netseer/0.1 bad_bot
+BrowserMatchNoCase NetSeer crawler/2.0 bad_bot
+BrowserMatchNoCase NetSeer/Nutch-0.9 bad_bot
+BrowserMatchNoCase psbot/0.1 bad_bot
+BrowserMatchNoCase moreoverbot/5.0 bad_bot
+BrowserMatchNoCase Jakarta Commons-HttpClient/3.0 bad_bot
+BrowserMatchNoCase SocialSpider-Finder/0.2 bad_bot
+BrowserMatchNoCase 008 bad_bot
+BrowserMatchNoCase 008/0.85 bad_bot
+Order Deny,Allow
+Deny from env=bad_bot
+# End Bad Bot Blocking
+
+# Denying Access to Test Site
+Order Deny,Allow
+Deny from all
+Allow from 217.41.66.241
+Allow from 81.136.138.157
+Allow from 82.118.99.229
+Allow from 119.226.238.166
+Allow from 195.170.169.8
+Allow from 86.27.177.96
+Allow from 92.40.254.251
+Allow from 182.72.203.1
+Allow from 77.76.71.77
+
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+	RewriteBase /
+	RewriteCond %{HTTP_HOST} !^bltdirect\.local$ [NC]
+	RewriteCond %{HTTP_HOST} !^www.bltdirect\.com$ [NC]
+	RewriteCond %{HTTP_HOST} !^test.bltdirect\.com$ [NC]
+	RewriteCond %{HTTP_HOST} !^bltdirect\.com$ [NC]
+	RewriteCond %{HTTP_HOST} !^46\.38\.171\.158$ [NC]
+	RewriteRule ^(.*)$ domains.php [L]
+	RewriteRule ^(\.*(!\.(ico|pdf|flv|jpg|jpeg|png|gif|js|css|swf)))$ application.php
+	#RewriteRule ^(\.*(!\.(ico|pdf|flv|jpg|jpeg|png|gif|js|css|swf)))\wsplmobile$ application.php
+</IfModule>
+
+<IfModule mod_deflate.c>
+	AddOutputFilterByType DEFLATE text/html text/plain text/xml application/x-javascript text/javascript text/css
+</IfModule>
+
+<IfModule mod_expires.c>
+	ExpiresActive On
+	ExpiresDefault A0
+	ExpiresByType image/ico A86400
+	ExpiresByType image/gif A86400
+	ExpiresByType image/png A86400
+	ExpiresByType image/jpeg A86400
+	ExpiresByType image/x-icon A86400
+	ExpiresByType text/css A86400
+	ExpiresByType text/javascript A86400
+	ExpiresByType application/x-javascript A86400
+	ExpiresByType application/x-shockwave-flash A86400
+	ExpiresByType application/pdf A86400
+	ExpiresByType video/x-flv A86400
+</IfModule>
+
+<IfModule mod_headers.c>
+	<FilesMatch "\.(ico|pdf|flv|jpg|jpeg|png|gif|js|css|swf)$">
+		Header set Cache-Control "max-age=86400, public, must-revalidate"
+	</FilesMatch>
+	
+	<FilesMatch "\.(html|htm|php|xml|txt)$">
+		Header set Cache-Control "no-store, no-cache, must-revalidate"
+	</FilesMatch>
+</IfModule>
+
+ErrorDocument 404 /application.php
+
+# Displays a system maintenance page and preventing any PHP or MySQL interaction.
+
+#<IfModule mod_rewrite.c>
+#	RewriteEngine On
+#	RewriteBase /
+#	RewriteRule !\.(ico|pdf|flv|jpg|jpeg|png|gif|js|css|swf)$ maintenance/index.php
+#</IfModule>
+
+#ErrorDocument 404 /maintenance/index.php
