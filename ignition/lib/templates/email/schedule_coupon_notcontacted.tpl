@@ -1,0 +1,2 @@
+<p>We were unsuccessful in contacting you today. Please keep this discount coupon for future use on our website. This coupon entitles you to a [DISCOUNT]% discount.</p>
+<p>Coupon: <strong>[COUPON]</strong></p>

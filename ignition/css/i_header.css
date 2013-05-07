@@ -1,0 +1,68 @@
+body{
+	margin:0;
+	background-color:#FFFFFF;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	background-image:url(../images/header_bg_2.jpg);
+	background-repeat:repeat-x;
+	font-size:11px;
+}
+form{
+	margin:0;
+	padding:0;
+}
+
+.logoArea{
+}
+
+.userString{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	padding-right:15px;
+	padding-left:0px;
+}
+
+.usersName{
+	font-weight:bold;
+}
+
+.toolBtnOut,
+.toolBtnOver{
+	background-repeat:repeat-x;
+	cursor:hand;
+}
+.toolBtnOut{
+	background-image:url(../images/bg_btns_header_1.gif);
+}
+
+.toolBtnOver{
+	background-image:url(../images/bg_btns_header_2.gif);
+}
+
+.alertPop{
+	background-image:url(../images/bg_popup_1.gif);
+	background-repeat:repeat-x;
+	background-color:#F5F5C8;
+}
+.alertPop td{
+	padding-right:10px;
+	padding-left:10px;
+	border-left:1px solid #EBEBBE;
+	border-right:1px solid #FFFFFF;
+	border-top:1px solid #FFFFFF;
+	border-bottom:1px solid #EBEBBE;
+	height:32px;
+	color:#243349;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+}
+
+.counter{
+	border:0;
+	background:transparent;
+	font-weight:bold;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	width:50px;
+	color:#DE0101;
+	text-align:center;
+}

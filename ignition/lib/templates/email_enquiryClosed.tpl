@@ -1,0 +1,2 @@
+<p>Thank you for your recent enquiry (Ref. #[PREFIX][ENQUIRYID]) which has now been closed. We hope our services were helpful to you. Please feel free to rate our service at the below link.</p>
+<p><a href="http://www.bltdirect.com/enquiries.php?enquiryid=[ENQUIRYID]">http://www.bltdirect.com/enquiries.php?enquiryid=[ENQUIRYID]</a></p>

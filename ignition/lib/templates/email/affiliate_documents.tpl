@@ -1,0 +1,1 @@
+<p>Thank you for your interest in becomming an affiliate with us. Please find attached documents requiring your authorisation and return to us by post.</p>

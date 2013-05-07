@@ -1,0 +1,31 @@
+body,td,th {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+}
+body {
+	background-color: #FFFFFF;
+	background-image:url(../images/hlpWin_bg_3.gif);
+	background-repeat:repeat-y;
+	margin: 0px;
+	
+	scrollbar-arrow-color:#65686A;
+	scrollbar-base-color:#ffffff;
+	scrollbar-shadow-color:#ABABAB;
+	scrollbar-face-color:#E0E3E5;
+	scrollbar-highlight-color:#ffffff;
+	scrollbar-darkshadow-color:#ffffff;
+	scrollbar-3dlight-color:#A9ACAE;
+	SCROLLBAR-TRACK-COLOR: #F0F3F5;
+}
+
+.contentTbl{
+	width:100%;
+	height:100%;
+	background-color:#FFFFFF;
+	padding:0;
+}
+
+.spacer1{
+	background-color:#A4AEBB;
+}

@@ -1,0 +1,53 @@
+body {
+	font-family: tahoma;
+	font-size: 70%;
+	padding: 250px 10px 10px 10px;
+}
+
+table.table td {
+	font-family: tahoma;
+	font-size: 70%;
+}
+
+p {
+	text-align: justify;
+}
+
+h1 {
+	font-size: 130%;
+	font-family: arial;
+}
+
+pre {
+	font-size: 9pt;
+	padding: 10px;
+	background-color: #F8F8F8;
+	border: 1px solid #F0F0F0;
+}
+
+.clsNode { 
+	font-family: tahoma; 
+	font-size: 8pt; 
+	text-decoration: none; 
+	cursor: hand; 
+	color: #5C6B80;
+	padding:2px 5px 2px 5px;
+}
+.clsNode:hover { 
+	text-decoration: none; 
+	color: #000000; 
+	background-color: #E0E3E5; 
+}
+
+input.small {
+	border: 1px solid silver;
+	padding: 0 2px;
+	background-color: #F0F0F0;
+	font-family: "Arial";
+	font-size: 9px;
+}
+
+select {
+	font-family: "Small Fonts";
+	font-size: 8px;
+}

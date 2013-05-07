@@ -1,0 +1,203 @@
+<?php
+require_once('lib/common/app_header.php');
+require_once($GLOBALS["DIR_WS_ADMIN"] . 'lib/classes/DataQuery.php');
+require_once($GLOBALS["DIR_WS_ADMIN"] . 'lib/classes/DataTable.php');
+require_once($GLOBALS["DIR_WS_ADMIN"] . 'lib/classes/Form.php');
+require_once($GLOBALS["DIR_WS_ADMIN"] . 'lib/classes/ProductSpecValue.php');
+require_once($GLOBALS["DIR_WS_ADMIN"] . 'lib/classes/ProductSpecValueImage.php');
+require_once($GLOBALS["DIR_WS_ADMIN"] . 'lib/classes/StandardWindow.php');
+require_once($GLOBALS["DIR_WS_ADMIN"] . 'lib/classes/StandardForm.php');
+
+if($action == 'remove'){
+	$session->Secure(3);
+	remove();
+	exit;
+} elseif($action == 'add'){
+	$session->Secure(3);
+	add();
+	exit;
+} elseif($action == 'update'){
+	$session->Secure(3);
+	update();
+	exit;
+} else {
+	$session->Secure(2);
+	view();
+	exit;
+}
+
+function remove(){
+	if(isset($_REQUEST['imageid']) && is_numeric($_REQUEST['imageid'])){
+		$item = new ProductSpecValueImage($_REQUEST['imageid']);
+		$item->delete();
+
+		redirectTo(sprintf('?valueid=%d', $item->valueId));
+	}
+
+	redirectTo('product_spec_groups.php');
+}
+
+function add() {
+	$value = new ProductSpecValue();
+	
+	if(!isset($_REQUEST['valueid']) || !$value->Get($_REQUEST['valueid'])) {
+		redirectTo('product_spec_groups.php');
+	}
+	
+	$form = new Form($_SERVER['PHP_SELF']);
+	$form->AddField('action', 'Action', 'hidden', 'add', 'alpha', 3, 3);
+	$form->AddField('confirm', 'Confirm', 'hidden', 'true', 'alpha', 4, 4);
+	$form->AddField('valueid', 'Value ID', 'hidden', '', 'numeric_unsigned', 1, 11);
+	$form->AddField('reference', 'Reference', 'text', '', 'paragraph', 0, 60, false);
+	$form->AddField('image', 'Image', 'file', '', 'file', null, null, false);
+
+	if(isset($_REQUEST['confirm'])) {
+		if($form->Validate()) {
+			$item = new ProductSpecValueImage();
+			$item->valueId = $value->ID;
+			$item->reference = $form->GetValue('reference');
+			
+			if($item->add('image')) {
+				redirect(sprintf('Location: ?valueid=%d', $value->ID));
+			} else {
+				for($i=0; $i<count($item->image->Errors); $i++) {
+					$form->AddError($item->image->Errors, 'image'); 	
+				}
+			}
+		}
+	}
+
+	$page = new Page(sprintf('<a href="product_specs_groups.php">Product Specification Groups</a> &gt; <a href="product_specs_groups_values.php?group=%d">Product Specification Group Values</a> &gt; <a href="?valueid=%d">Images</a> &gt; Add Image', $value->Group->ID, $value->ID), 'Add an image to this specification value.');
+	$page->Display('header');
+
+	if(!$form->Valid){
+		echo $form->GetError();
+		echo '<br />';
+	}
+
+	$window = new StandardWindow('Add image');
+	$webForm = new StandardForm();
+
+	echo $form->Open();
+	echo $form->GetHTML('action');
+	echo $form->GetHTML('confirm');
+	echo $form->GetHTML('valueid');
+	
+	echo $window->Open();
+	echo $window->AddHeader('Add specification group value');
+	echo $window->OpenContent();
+	echo $webForm->Open();
+	echo $webForm->AddRow($form->GetLabel('reference'), $form->GetHTML('reference'));
+	echo $webForm->AddRow($form->GetLabel('image'), $form->GetHTML('image'));
+	echo $webForm->AddRow('', sprintf('<input type="button" name="back" value="back" class="btn" onclick="window.self.location=\'?valueid=%d\';" /> <input type="submit" name="add" value="add" class="btn" tabindex="%s" />', $value->ID, $form->GetTabIndex()));
+	echo $webForm->Close();
+	echo $window->CloseContent();
+	echo $window->Close();
+	
+	echo $form->Close();
+
+	$page->Display('footer');
+	require_once('lib/common/app_footer.php');
+}
+
+function update(){
+	$item = new ProductSpecValueImage();
+	
+	if(!isset($_REQUEST['imageid']) || !$item->Get($_REQUEST['imageid'])) {
+		redirectTo('product_spec_groups.php');
+	}
+	
+	$value = new ProductSpecValue();
+	
+	if(!$value->Get($item->valueId)) {
+		redirectTo('product_spec_groups.php');
+	}
+
+	$form = new Form($_SERVER['PHP_SELF']);
+	$form->AddField('action', 'Action', 'hidden', 'update', 'alpha', 6, 6);
+	$form->AddField('confirm', 'Confirm', 'hidden', 'true', 'alpha', 4, 4);
+	$form->AddField('imageid', 'Image ID', 'hidden', '', 'numeric_unsigned', 1, 11);
+	$form->AddField('reference', 'Reference', 'text', $item->reference, 'paragraph', 0, 60, false);
+	$form->AddField('image', 'Image', 'file', '', 'file', null, null, false);
+
+	if(isset($_REQUEST['confirm'])) {
+		if($form->Validate()) {
+			$item->reference = $form->GetValue('reference');
+			
+			if($item->update('image')) {
+				redirect(sprintf('Location: ?valueid=%d', $item->valueId));
+			} else {
+				for($i=0; $i<count($item->image->Errors); $i++) {
+					$form->AddError($item->image->Errors, 'image'); 	
+				}
+			}
+		}
+	}
+
+	$page = new Page(sprintf('<a href="product_specs_groups.php">Product Specification Groups</a> &gt; <a href="product_specs_groups_values.php?group=%d">Product Specification Group Values</a> &gt; <a href="?valueid=%d">Images</a> &gt; Update Image', $value->Group->ID, $value->ID), 'Update an existing image for this specification value.');
+	$page->Display('header');
+
+	if(!$form->Valid){
+		echo $form->GetError();
+		echo '<br />';
+	}
+
+	$window = new StandardWindow('Update image');
+	$webForm = new StandardForm();
+
+	echo $form->Open();
+	echo $form->GetHTML('action');
+	echo $form->GetHTML('confirm');
+	echo $form->GetHTML('imageid');
+	
+	echo $window->Open();
+	echo $window->AddHeader('Update specification group value');
+	echo $window->OpenContent();
+	echo $webForm->Open();
+	echo $webForm->AddRow($form->GetLabel('reference'), $form->GetHTML('reference'));
+	echo $webForm->AddRow($form->GetLabel('image'), $form->GetHTML('image'));
+	
+	if(!empty($item->image->FileName)) {
+		echo $webForm->AddRow('Current Image', sprintf('<img src="%s%s" />', $GLOBALS['SPEC_IMAGES_DIR_WS'], $item->image->FileName));
+	}
+	
+	echo $webForm->AddRow('', sprintf('<input type="button" name="back" value="back" class="btn" onClick="window.self.location=\'?valueid=%d\';" /> <input type="submit" name="update" value="update" class="btn" tabindex="%s" />', $item->valueId, $form->GetTabIndex()));
+	echo $webForm->Close();
+	echo $window->CloseContent();
+	echo $window->Close();
+	
+	echo $form->Close();
+
+	$page->Display('footer');
+	require_once('lib/common/app_footer.php');
+}
+
+function view() {
+	$value = new ProductSpecValue();
+	
+	if(!isset($_REQUEST['valueid']) || !$value->Get($_REQUEST['valueid'])) {
+		redirectTo('product_spec_groups.php');
+	}
+
+	$page = new Page('<a href="product_specs_groups.php">Product Specification Groups</a> &gt; <a href="">Product Specification Group Values</a> &gt; Images', 'Manage images for this specification group value.');
+	$page->Display('header');
+
+	$table = new DataTable('images');
+	$table->SetSQL(sprintf("SELECT * FROM product_specification_value_image WHERE valueId=%d", $value->ID));
+	$table->AddField('ID#', 'id', 'left');
+	$table->AddField('Reference', 'reference', 'left');
+	$table->AddLink("?action=update&imageid=%s", "<img src=\"./images/icon_edit_1.gif\" alt=\"Update Value\" border=\"0\">", "id");
+	$table->AddLink("javascript:confirmRequest('?action=remove&imageid=%s','Are you sure you want to remove this item?');", "<img src=\"./images/aztector_6.gif\" alt=\"Remove\" border=\"0\">", "id");
+	$table->SetMaxRows(25);
+	$table->SetOrderBy('reference');
+	$table->Finalise();
+	$table->DisplayTable();
+	echo '<br />';
+	$table->DisplayNavigation();
+
+	echo '<br />';
+	echo sprintf('<input type="button" name="add" value="add image" class="btn" onclick="window.location.href=\'?action=add&valueid=%d\'" /> ', $value->ID);
+
+	$page->Display('footer');
+	require_once('lib/common/app_footer.php');
+}

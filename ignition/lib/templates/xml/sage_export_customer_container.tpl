@@ -1,0 +1,1 @@
+<Customer>[SAGE_CUSTOMER]</Customer>
