@@ -1,0 +1,149 @@
+a:5:{s:8:"Group_ID";s:2:"30";s:8:"Value_ID";s:3:"367";s:5:"Value";s:12:"14mm SES/E14";s:9:"UnitValue";s:13:"14mm SES/E14 ";s:8:"Products";s:1:"1";}
+a:5:{s:8:"Group_ID";s:2:"30";s:8:"Value_ID";s:3:"368";s:5:"Value";s:14:"15mm Ba15d/SBC";s:9:"UnitValue";s:15:"15mm Ba15d/SBC ";s:8:"Products";s:2:"10";}
+a:5:{s:8:"Group_ID";s:2:"30";s:8:"Value_ID";s:3:"374";s:5:"Value";s:13:"22mm Ba22d/BC";s:9:"UnitValue";s:14:"22mm Ba22d/BC ";s:8:"Products";s:1:"2";}
+a:5:{s:8:"Group_ID";s:2:"30";s:8:"Value_ID";s:3:"377";s:5:"Value";s:14:"26-27mm ES/E27";s:9:"UnitValue";s:15:"26-27mm ES/E27 ";s:8:"Products";s:2:"29";}
+a:5:{s:8:"Group_ID";s:2:"30";s:8:"Value_ID";s:3:"404";s:5:"Value";s:5:"Ba20d";s:9:"UnitValue";s:6:"Ba20d ";s:8:"Products";s:1:"1";}
+a:5:{s:8:"Group_ID";s:2:"30";s:8:"Value_ID";s:3:"405";s:5:"Value";s:5:"Bx22d";s:9:"UnitValue";s:6:"Bx22d ";s:8:"Products";s:1:"5";}
+a:5:{s:8:"Group_ID";s:2:"30";s:8:"Value_ID";s:3:"445";s:5:"Value";s:23:"G53 (53mm Apart Prongs)";s:9:"UnitValue";s:24:"G53 (53mm Apart Prongs) ";s:8:"Products";s:2:"14";}
+a:5:{s:8:"Group_ID";s:2:"30";s:8:"Value_ID";s:3:"447";s:5:"Value";s:27:"G6.35/GY6.35 (6.35mm Apart)";s:9:"UnitValue";s:28:"G6.35/GY6.35 (6.35mm Apart) ";s:8:"Products";s:2:"13";}
+a:5:{s:8:"Group_ID";s:2:"30";s:8:"Value_ID";s:4:"6264";s:5:"Value";s:2:"G8";s:9:"UnitValue";s:3:"G8 ";s:8:"Products";s:1:"1";}
+a:5:{s:8:"Group_ID";s:2:"30";s:8:"Value_ID";s:3:"455";s:5:"Value";s:4:"GU10";s:9:"UnitValue";s:5:"GU10 ";s:8:"Products";s:2:"17";}
+a:5:{s:8:"Group_ID";s:2:"30";s:8:"Value_ID";s:3:"465";s:5:"Value";s:11:"GX5.3/GU5.3";s:9:"UnitValue";s:12:"GX5.3/GU5.3 ";s:8:"Products";s:2:"82";}
+a:5:{s:8:"Group_ID";s:2:"30";s:8:"Value_ID";s:3:"476";s:5:"Value";s:5:"GY7.9";s:9:"UnitValue";s:6:"GY7.9 ";s:8:"Products";s:1:"1";}
+a:5:{s:8:"Group_ID";s:2:"30";s:8:"Value_ID";s:3:"478";s:5:"Value";s:4:"GZ10";s:9:"UnitValue";s:5:"GZ10 ";s:8:"Products";s:1:"1";}
+a:5:{s:8:"Group_ID";s:2:"30";s:8:"Value_ID";s:3:"480";s:5:"Value";s:6:"GZ6.35";s:9:"UnitValue";s:7:"GZ6.35 ";s:8:"Products";s:1:"1";}
+a:5:{s:8:"Group_ID";s:2:"30";s:8:"Value_ID";s:3:"484";s:5:"Value";s:5:"Leads";s:9:"UnitValue";s:6:"Leads ";s:8:"Products";s:1:"1";}
+a:5:{s:8:"Group_ID";s:2:"30";s:8:"Value_ID";s:3:"491";s:5:"Value";s:4:"P30s";s:9:"UnitValue";s:5:"P30s ";s:8:"Products";s:1:"1";}
+a:5:{s:8:"Group_ID";s:2:"30";s:8:"Value_ID";s:4:"6266";s:5:"Value";s:4:"P47D";s:9:"UnitValue";s:5:"P47D ";s:8:"Products";s:1:"1";}
+a:5:{s:8:"Group_ID";s:2:"30";s:8:"Value_ID";s:4:"6522";s:5:"Value";s:4:"PG12";s:9:"UnitValue";s:5:"PG12 ";s:8:"Products";s:1:"1";}
+a:5:{s:8:"Group_ID";s:2:"30";s:8:"Value_ID";s:3:"499";s:5:"Value";s:5:"PK225";s:9:"UnitValue";s:6:"PK225 ";s:8:"Products";s:1:"2";}
+a:5:{s:8:"Group_ID";s:2:"30";s:8:"Value_ID";s:3:"517";s:5:"Value";s:14:"Screw Terminal";s:9:"UnitValue";s:15:"Screw Terminal ";s:8:"Products";s:1:"8";}
+a:5:{s:8:"Group_ID";s:2:"30";s:8:"Value_ID";s:3:"527";s:5:"Value";s:10:"Wedge Base";s:9:"UnitValue";s:11:"Wedge Base ";s:8:"Products";s:1:"1";}
+a:5:{s:8:"Group_ID";s:2:"41";s:8:"Value_ID";s:3:"650";s:5:"Value";s:5:"Amber";s:9:"UnitValue";s:6:"Amber ";s:8:"Products";s:1:"2";}
+a:5:{s:8:"Group_ID";s:2:"41";s:8:"Value_ID";s:3:"652";s:5:"Value";s:5:"Black";s:9:"UnitValue";s:6:"Black ";s:8:"Products";s:1:"4";}
+a:5:{s:8:"Group_ID";s:2:"41";s:8:"Value_ID";s:3:"655";s:5:"Value";s:4:"Blue";s:9:"UnitValue";s:5:"Blue ";s:8:"Products";s:1:"3";}
+a:5:{s:8:"Group_ID";s:2:"41";s:8:"Value_ID";s:3:"657";s:5:"Value";s:5:"Brass";s:9:"UnitValue";s:6:"Brass ";s:8:"Products";s:1:"4";}
+a:5:{s:8:"Group_ID";s:2:"41";s:8:"Value_ID";s:3:"660";s:5:"Value";s:6:"Chrome";s:9:"UnitValue";s:7:"Chrome ";s:8:"Products";s:1:"6";}
+a:5:{s:8:"Group_ID";s:2:"41";s:8:"Value_ID";s:3:"661";s:5:"Value";s:5:"Clear";s:9:"UnitValue";s:6:"Clear ";s:8:"Products";s:1:"1";}
+a:5:{s:8:"Group_ID";s:2:"41";s:8:"Value_ID";s:3:"675";s:5:"Value";s:16:"Cool White (840)";s:9:"UnitValue";s:17:"Cool White (840) ";s:8:"Products";s:1:"3";}
+a:5:{s:8:"Group_ID";s:2:"41";s:8:"Value_ID";s:3:"680";s:5:"Value";s:18:"Daylight (860/865)";s:9:"UnitValue";s:19:"Daylight (860/865) ";s:8:"Products";s:1:"4";}
+a:5:{s:8:"Group_ID";s:2:"41";s:8:"Value_ID";s:4:"4744";s:5:"Value";s:7:"Frosted";s:9:"UnitValue";s:8:"Frosted ";s:8:"Products";s:1:"1";}
+a:5:{s:8:"Group_ID";s:2:"41";s:8:"Value_ID";s:4:"4654";s:5:"Value";s:12:"Golden White";s:9:"UnitValue";s:13:"Golden White ";s:8:"Products";s:1:"1";}
+a:5:{s:8:"Group_ID";s:2:"41";s:8:"Value_ID";s:3:"691";s:5:"Value";s:5:"Green";s:9:"UnitValue";s:6:"Green ";s:8:"Products";s:1:"2";}
+a:5:{s:8:"Group_ID";s:2:"41";s:8:"Value_ID";s:3:"698";s:5:"Value";s:7:"Magenta";s:9:"UnitValue";s:8:"Magenta ";s:8:"Products";s:1:"2";}
+a:5:{s:8:"Group_ID";s:2:"41";s:8:"Value_ID";s:3:"708";s:5:"Value";s:6:"Purple";s:9:"UnitValue";s:7:"Purple ";s:8:"Products";s:1:"1";}
+a:5:{s:8:"Group_ID";s:2:"41";s:8:"Value_ID";s:3:"709";s:5:"Value";s:3:"Red";s:9:"UnitValue";s:4:"Red ";s:8:"Products";s:1:"2";}
+a:5:{s:8:"Group_ID";s:2:"41";s:8:"Value_ID";s:3:"710";s:5:"Value";s:12:"Satin Chrome";s:9:"UnitValue";s:13:"Satin Chrome ";s:8:"Products";s:1:"5";}
+a:5:{s:8:"Group_ID";s:2:"41";s:8:"Value_ID";s:3:"711";s:5:"Value";s:6:"Silver";s:9:"UnitValue";s:7:"Silver ";s:8:"Products";s:1:"5";}
+a:5:{s:8:"Group_ID";s:2:"41";s:8:"Value_ID";s:4:"4857";s:5:"Value";s:13:"Sodium Orange";s:9:"UnitValue";s:14:"Sodium Orange ";s:8:"Products";s:2:"19";}
+a:5:{s:8:"Group_ID";s:2:"41";s:8:"Value_ID";s:3:"723";s:5:"Value";s:16:"Warm White (830)";s:9:"UnitValue";s:17:"Warm White (830) ";s:8:"Products";s:2:"93";}
+a:5:{s:8:"Group_ID";s:2:"41";s:8:"Value_ID";s:3:"725";s:5:"Value";s:11:"White (835)";s:9:"UnitValue";s:12:"White (835) ";s:8:"Products";s:2:"23";}
+a:5:{s:8:"Group_ID";s:2:"41";s:8:"Value_ID";s:3:"726";s:5:"Value";s:6:"Yellow";s:9:"UnitValue";s:7:"Yellow ";s:8:"Products";s:1:"2";}
+a:5:{s:8:"Group_ID";s:2:"42";s:8:"Value_ID";s:5:"56658";s:5:"Value";s:4:"1900";s:9:"UnitValue";s:6:"1900 K";s:8:"Products";s:1:"3";}
+a:5:{s:8:"Group_ID";s:2:"42";s:8:"Value_ID";s:3:"732";s:5:"Value";s:4:"1950";s:9:"UnitValue";s:6:"1950 K";s:8:"Products";s:1:"1";}
+a:5:{s:8:"Group_ID";s:2:"42";s:8:"Value_ID";s:4:"4851";s:5:"Value";s:4:"2000";s:9:"UnitValue";s:6:"2000 K";s:8:"Products";s:2:"13";}
+a:5:{s:8:"Group_ID";s:2:"42";s:8:"Value_ID";s:3:"733";s:5:"Value";s:4:"2100";s:9:"UnitValue";s:6:"2100 K";s:8:"Products";s:1:"2";}
+a:5:{s:8:"Group_ID";s:2:"42";s:8:"Value_ID";s:4:"5038";s:5:"Value";s:4:"2500";s:9:"UnitValue";s:6:"2500 K";s:8:"Products";s:1:"1";}
+a:5:{s:8:"Group_ID";s:2:"42";s:8:"Value_ID";s:3:"736";s:5:"Value";s:4:"2700";s:9:"UnitValue";s:6:"2700 K";s:8:"Products";s:2:"96";}
+a:5:{s:8:"Group_ID";s:2:"42";s:8:"Value_ID";s:3:"741";s:5:"Value";s:4:"2750";s:9:"UnitValue";s:6:"2750 K";s:8:"Products";s:1:"1";}
+a:5:{s:8:"Group_ID";s:2:"42";s:8:"Value_ID";s:3:"742";s:5:"Value";s:4:"2800";s:9:"UnitValue";s:6:"2800 K";s:8:"Products";s:1:"4";}
+a:5:{s:8:"Group_ID";s:2:"42";s:8:"Value_ID";s:3:"743";s:5:"Value";s:4:"2900";s:9:"UnitValue";s:6:"2900 K";s:8:"Products";s:1:"7";}
+a:5:{s:8:"Group_ID";s:2:"42";s:8:"Value_ID";s:3:"729";s:5:"Value";s:4:"3000";s:9:"UnitValue";s:6:"3000 K";s:8:"Products";s:2:"20";}
+a:5:{s:8:"Group_ID";s:2:"42";s:8:"Value_ID";s:3:"757";s:5:"Value";s:4:"3800";s:9:"UnitValue";s:6:"3800 K";s:8:"Products";s:1:"1";}
+a:5:{s:8:"Group_ID";s:2:"42";s:8:"Value_ID";s:3:"759";s:5:"Value";s:4:"4000";s:9:"UnitValue";s:6:"4000 K";s:8:"Products";s:1:"2";}
+a:5:{s:8:"Group_ID";s:2:"42";s:8:"Value_ID";s:3:"762";s:5:"Value";s:4:"4200";s:9:"UnitValue";s:6:"4200 K";s:8:"Products";s:1:"1";}
+a:5:{s:8:"Group_ID";s:2:"42";s:8:"Value_ID";s:3:"775";s:5:"Value";s:4:"5300";s:9:"UnitValue";s:6:"5300 K";s:8:"Products";s:1:"1";}
+a:5:{s:8:"Group_ID";s:2:"54";s:8:"Value_ID";s:3:"948";s:5:"Value";s:2:"10";s:9:"UnitValue";s:5:"10 mm";s:8:"Products";s:1:"1";}
+a:5:{s:8:"Group_ID";s:2:"54";s:8:"Value_ID";s:4:"4755";s:5:"Value";s:4:"11.5";s:9:"UnitValue";s:7:"11.5 mm";s:8:"Products";s:1:"1";}
+a:5:{s:8:"Group_ID";s:2:"54";s:8:"Value_ID";s:3:"952";s:5:"Value";s:3:"111";s:9:"UnitValue";s:6:"111 mm";s:8:"Products";s:2:"14";}
+a:5:{s:8:"Group_ID";s:2:"54";s:8:"Value_ID";s:3:"953";s:5:"Value";s:3:"114";s:9:"UnitValue";s:6:"114 mm";s:8:"Products";s:1:"6";}
+a:5:{s:8:"Group_ID";s:2:"54";s:8:"Value_ID";s:3:"956";s:5:"Value";s:2:"12";s:9:"UnitValue";s:5:"12 mm";s:8:"Products";s:1:"2";}
+a:5:{s:8:"Group_ID";s:2:"54";s:8:"Value_ID";s:3:"972";s:5:"Value";s:3:"146";s:9:"UnitValue";s:6:"146 mm";s:8:"Products";s:1:"2";}
+a:5:{s:8:"Group_ID";s:2:"54";s:8:"Value_ID";s:4:"1053";s:5:"Value";s:2:"15";s:9:"UnitValue";s:5:"15 mm";s:8:"Products";s:1:"1";}
+a:5:{s:8:"Group_ID";s:2:"54";s:8:"Value_ID";s:4:"1019";s:5:"Value";s:2:"32";s:9:"UnitValue";s:5:"32 mm";s:8:"Products";s:1:"2";}
+a:5:{s:8:"Group_ID";s:2:"54";s:8:"Value_ID";s:4:"1023";s:5:"Value";s:2:"33";s:9:"UnitValue";s:5:"33 mm";s:8:"Products";s:1:"1";}
+a:5:{s:8:"Group_ID";s:2:"54";s:8:"Value_ID";s:4:"1026";s:5:"Value";s:2:"35";s:9:"UnitValue";s:5:"35 mm";s:8:"Products";s:1:"1";}
+a:5:{s:8:"Group_ID";s:2:"54";s:8:"Value_ID";s:4:"1027";s:5:"Value";s:2:"36";s:9:"UnitValue";s:5:"36 mm";s:8:"Products";s:1:"1";}
+a:5:{s:8:"Group_ID";s:2:"54";s:8:"Value_ID";s:3:"941";s:5:"Value";s:2:"38";s:9:"UnitValue";s:5:"38 mm";s:8:"Products";s:1:"1";}
+a:5:{s:8:"Group_ID";s:2:"54";s:8:"Value_ID";s:4:"1036";s:5:"Value";s:2:"40";s:9:"UnitValue";s:5:"40 mm";s:8:"Products";s:1:"2";}
+a:5:{s:8:"Group_ID";s:2:"54";s:8:"Value_ID";s:4:"1044";s:5:"Value";s:2:"45";s:9:"UnitValue";s:5:"45 mm";s:8:"Products";s:1:"2";}
+a:5:{s:8:"Group_ID";s:2:"54";s:8:"Value_ID";s:4:"1056";s:5:"Value";s:2:"50";s:9:"UnitValue";s:5:"50 mm";s:8:"Products";s:2:"71";}
+a:5:{s:8:"Group_ID";s:2:"54";s:8:"Value_ID";s:4:"4703";s:5:"Value";s:2:"51";s:9:"UnitValue";s:5:"51 mm";s:8:"Products";s:1:"2";}
+a:5:{s:8:"Group_ID";s:2:"54";s:8:"Value_ID";s:4:"1059";s:5:"Value";s:2:"54";s:9:"UnitValue";s:5:"54 mm";s:8:"Products";s:1:"2";}
+a:5:{s:8:"Group_ID";s:2:"54";s:8:"Value_ID";s:4:"1061";s:5:"Value";s:2:"55";s:9:"UnitValue";s:5:"55 mm";s:8:"Products";s:1:"1";}
+a:5:{s:8:"Group_ID";s:2:"54";s:8:"Value_ID";s:4:"1062";s:5:"Value";s:2:"56";s:9:"UnitValue";s:5:"56 mm";s:8:"Products";s:1:"3";}
+a:5:{s:8:"Group_ID";s:2:"54";s:8:"Value_ID";s:4:"1065";s:5:"Value";s:2:"58";s:9:"UnitValue";s:5:"58 mm";s:8:"Products";s:1:"3";}
+a:5:{s:8:"Group_ID";s:2:"54";s:8:"Value_ID";s:4:"1073";s:5:"Value";s:2:"63";s:9:"UnitValue";s:5:"63 mm";s:8:"Products";s:1:"3";}
+a:5:{s:8:"Group_ID";s:2:"54";s:8:"Value_ID";s:4:"1081";s:5:"Value";s:2:"70";s:9:"UnitValue";s:5:"70 mm";s:8:"Products";s:1:"8";}
+a:5:{s:8:"Group_ID";s:2:"54";s:8:"Value_ID";s:4:"4933";s:5:"Value";s:2:"71";s:9:"UnitValue";s:5:"71 mm";s:8:"Products";s:1:"4";}
+a:5:{s:8:"Group_ID";s:2:"54";s:8:"Value_ID";s:4:"1091";s:5:"Value";s:2:"80";s:9:"UnitValue";s:5:"80 mm";s:8:"Products";s:1:"4";}
+a:5:{s:8:"Group_ID";s:2:"73";s:8:"Value_ID";s:4:"4691";s:5:"Value";s:3:"300";s:9:"UnitValue";s:5:"300 W";s:8:"Products";s:1:"4";}
+a:5:{s:8:"Group_ID";s:2:"73";s:8:"Value_ID";s:5:"39921";s:5:"Value";s:3:"360";s:9:"UnitValue";s:5:"360 W";s:8:"Products";s:1:"1";}
+a:5:{s:8:"Group_ID";s:2:"73";s:8:"Value_ID";s:4:"5645";s:5:"Value";s:2:"40";s:9:"UnitValue";s:4:"40 W";s:8:"Products";s:1:"2";}
+a:5:{s:8:"Group_ID";s:3:"132";s:8:"Value_ID";s:5:"22524";s:5:"Value";s:4:"1180";s:9:"UnitValue";s:7:"1180 lm";s:8:"Products";s:1:"1";}
+a:5:{s:8:"Group_ID";s:3:"132";s:8:"Value_ID";s:4:"3065";s:5:"Value";s:4:"1400";s:9:"UnitValue";s:7:"1400 lm";s:8:"Products";s:1:"1";}
+a:5:{s:8:"Group_ID";s:3:"132";s:8:"Value_ID";s:4:"3112";s:5:"Value";s:4:"3000";s:9:"UnitValue";s:7:"3000 lm";s:8:"Products";s:1:"2";}
+a:5:{s:8:"Group_ID";s:3:"132";s:8:"Value_ID";s:4:"3121";s:5:"Value";s:4:"3400";s:9:"UnitValue";s:7:"3400 lm";s:8:"Products";s:1:"4";}
+a:5:{s:8:"Group_ID";s:3:"132";s:8:"Value_ID";s:4:"3124";s:5:"Value";s:4:"3500";s:9:"UnitValue";s:7:"3500 lm";s:8:"Products";s:1:"2";}
+a:5:{s:8:"Group_ID";s:3:"132";s:8:"Value_ID";s:5:"27267";s:5:"Value";s:4:"3700";s:9:"UnitValue";s:7:"3700 lm";s:8:"Products";s:1:"2";}
+a:5:{s:8:"Group_ID";s:3:"132";s:8:"Value_ID";s:5:"16168";s:5:"Value";s:4:"3900";s:9:"UnitValue";s:7:"3900 lm";s:8:"Products";s:1:"2";}
+a:5:{s:8:"Group_ID";s:3:"132";s:8:"Value_ID";s:4:"3133";s:5:"Value";s:4:"4000";s:9:"UnitValue";s:7:"4000 lm";s:8:"Products";s:1:"3";}
+a:5:{s:8:"Group_ID";s:3:"132";s:8:"Value_ID";s:4:"3134";s:5:"Value";s:4:"4100";s:9:"UnitValue";s:7:"4100 lm";s:8:"Products";s:1:"1";}
+a:5:{s:8:"Group_ID";s:3:"132";s:8:"Value_ID";s:4:"3137";s:5:"Value";s:4:"4400";s:9:"UnitValue";s:7:"4400 lm";s:8:"Products";s:1:"3";}
+a:5:{s:8:"Group_ID";s:3:"132";s:8:"Value_ID";s:5:"24249";s:5:"Value";s:4:"5350";s:9:"UnitValue";s:7:"5350 lm";s:8:"Products";s:1:"1";}
+a:5:{s:8:"Group_ID";s:3:"132";s:8:"Value_ID";s:4:"3154";s:5:"Value";s:4:"5600";s:9:"UnitValue";s:7:"5600 lm";s:8:"Products";s:1:"1";}
+a:5:{s:8:"Group_ID";s:3:"132";s:8:"Value_ID";s:4:"3175";s:5:"Value";s:3:"800";s:9:"UnitValue";s:6:"800 lm";s:8:"Products";s:2:"15";}
+a:5:{s:8:"Group_ID";s:3:"132";s:8:"Value_ID";s:4:"7307";s:5:"Value";s:3:"950";s:9:"UnitValue";s:6:"950 lm";s:8:"Products";s:1:"8";}
+a:5:{s:8:"Group_ID";s:3:"132";s:8:"Value_ID";s:4:"3182";s:5:"Value";s:4:"9600";s:9:"UnitValue";s:7:"9600 lm";s:8:"Products";s:1:"1";}
+a:5:{s:8:"Group_ID";s:3:"132";s:8:"Value_ID";s:5:"22516";s:5:"Value";s:3:"990";s:9:"UnitValue";s:6:"990 lm";s:8:"Products";s:1:"1";}
+a:5:{s:8:"Group_ID";s:3:"209";s:8:"Value_ID";s:4:"3874";s:5:"Value";s:2:"10";s:9:"UnitValue";s:4:"10 V";s:8:"Products";s:1:"2";}
+a:5:{s:8:"Group_ID";s:3:"209";s:8:"Value_ID";s:4:"3879";s:5:"Value";s:7:"110-130";s:9:"UnitValue";s:9:"110-130 V";s:8:"Products";s:1:"2";}
+a:5:{s:8:"Group_ID";s:3:"209";s:8:"Value_ID";s:4:"3890";s:5:"Value";s:2:"12";s:9:"UnitValue";s:4:"12 V";s:8:"Products";s:3:"100";}
+a:5:{s:8:"Group_ID";s:3:"209";s:8:"Value_ID";s:4:"3894";s:5:"Value";s:4:"12.8";s:9:"UnitValue";s:6:"12.8 V";s:8:"Products";s:1:"3";}
+a:5:{s:8:"Group_ID";s:3:"209";s:8:"Value_ID";s:4:"3896";s:5:"Value";s:3:"120";s:9:"UnitValue";s:5:"120 V";s:8:"Products";s:1:"1";}
+a:5:{s:8:"Group_ID";s:3:"209";s:8:"Value_ID";s:4:"3907";s:5:"Value";s:4:"13.8";s:9:"UnitValue";s:6:"13.8 V";s:8:"Products";s:1:"3";}
+a:5:{s:8:"Group_ID";s:3:"209";s:8:"Value_ID";s:4:"3909";s:5:"Value";s:2:"14";s:9:"UnitValue";s:4:"14 V";s:8:"Products";s:1:"1";}
+a:5:{s:8:"Group_ID";s:3:"209";s:8:"Value_ID";s:4:"3915";s:5:"Value";s:2:"16";s:9:"UnitValue";s:4:"16 V";s:8:"Products";s:1:"1";}
+a:5:{s:8:"Group_ID";s:3:"209";s:8:"Value_ID";s:4:"3929";s:5:"Value";s:4:"22.8";s:9:"UnitValue";s:6:"22.8 V";s:8:"Products";s:1:"2";}
+a:5:{s:8:"Group_ID";s:3:"209";s:8:"Value_ID";s:4:"3931";s:5:"Value";s:7:"220-240";s:9:"UnitValue";s:9:"220-240 V";s:8:"Products";s:2:"45";}
+a:5:{s:8:"Group_ID";s:3:"209";s:8:"Value_ID";s:4:"3944";s:5:"Value";s:2:"24";s:9:"UnitValue";s:4:"24 V";s:8:"Products";s:1:"7";}
+a:5:{s:8:"Group_ID";s:3:"209";s:8:"Value_ID";s:4:"3965";s:5:"Value";s:2:"28";s:9:"UnitValue";s:4:"28 V";s:8:"Products";s:1:"2";}
+a:5:{s:8:"Group_ID";s:3:"209";s:8:"Value_ID";s:4:"3998";s:5:"Value";s:2:"50";s:9:"UnitValue";s:4:"50 V";s:8:"Products";s:1:"1";}
+a:5:{s:8:"Group_ID";s:3:"209";s:8:"Value_ID";s:4:"4005";s:5:"Value";s:1:"6";s:9:"UnitValue";s:3:"6 V";s:8:"Products";s:1:"1";}
+a:5:{s:8:"Group_ID";s:3:"209";s:8:"Value_ID";s:4:"4021";s:5:"Value";s:1:"8";s:9:"UnitValue";s:3:"8 V";s:8:"Products";s:1:"2";}
+a:5:{s:8:"Group_ID";s:3:"209";s:8:"Value_ID";s:5:"56662";s:5:"Value";s:2:"85";s:9:"UnitValue";s:4:"85 V";s:8:"Products";s:1:"5";}
+a:5:{s:8:"Group_ID";s:3:"209";s:8:"Value_ID";s:5:"56680";s:5:"Value";s:2:"91";s:9:"UnitValue";s:4:"91 V";s:8:"Products";s:1:"1";}
+a:5:{s:8:"Group_ID";s:3:"221";s:8:"Value_ID";s:4:"4595";s:5:"Value";s:5:"2 Pin";s:9:"UnitValue";s:6:"2 Pin ";s:8:"Products";s:3:"136";}
+a:5:{s:8:"Group_ID";s:3:"221";s:8:"Value_ID";s:4:"4819";s:5:"Value";s:7:"2 Prong";s:9:"UnitValue";s:8:"2 Prong ";s:8:"Products";s:1:"2";}
+a:5:{s:8:"Group_ID";s:3:"221";s:8:"Value_ID";s:4:"4598";s:5:"Value";s:7:"Bayonet";s:9:"UnitValue";s:8:"Bayonet ";s:8:"Products";s:2:"15";}
+a:5:{s:8:"Group_ID";s:3:"221";s:8:"Value_ID";s:4:"4597";s:5:"Value";s:8:"Screw In";s:9:"UnitValue";s:9:"Screw In ";s:8:"Products";s:2:"35";}
+a:5:{s:8:"Group_ID";s:3:"221";s:8:"Value_ID";s:4:"4942";s:5:"Value";s:7:"Special";s:9:"UnitValue";s:8:"Special ";s:8:"Products";s:2:"12";}
+a:5:{s:8:"Group_ID";s:3:"222";s:8:"Value_ID";s:4:"4605";s:5:"Value";s:12:"A1 Projector";s:9:"UnitValue";s:13:"A1 Projector ";s:8:"Products";s:1:"3";}
+a:5:{s:8:"Group_ID";s:3:"222";s:8:"Value_ID";s:4:"4607";s:5:"Value";s:10:"ANSI Coded";s:9:"UnitValue";s:11:"ANSI Coded ";s:8:"Products";s:1:"9";}
+a:5:{s:8:"Group_ID";s:3:"222";s:8:"Value_ID";s:4:"7071";s:5:"Value";s:12:"Control Gear";s:9:"UnitValue";s:13:"Control Gear ";s:8:"Products";s:1:"6";}
+a:5:{s:8:"Group_ID";s:3:"222";s:8:"Value_ID";s:4:"4600";s:5:"Value";s:7:"Halogen";s:9:"UnitValue";s:8:"Halogen ";s:8:"Products";s:3:"120";}
+a:5:{s:8:"Group_ID";s:3:"222";s:8:"Value_ID";s:4:"4614";s:5:"Value";s:3:"LED";s:9:"UnitValue";s:4:"LED ";s:8:"Products";s:1:"5";}
+a:5:{s:8:"Group_ID";s:3:"222";s:8:"Value_ID";s:4:"6368";s:5:"Value";s:13:"Light Fitting";s:9:"UnitValue";s:14:"Light Fitting ";s:8:"Products";s:2:"21";}
+a:5:{s:8:"Group_ID";s:3:"222";s:8:"Value_ID";s:4:"4608";s:5:"Value";s:19:"Marine & Navigation";s:9:"UnitValue";s:20:"Marine & Navigation ";s:8:"Products";s:1:"1";}
+a:5:{s:8:"Group_ID";s:3:"222";s:8:"Value_ID";s:4:"4609";s:5:"Value";s:20:"Medical & Microscope";s:9:"UnitValue";s:21:"Medical & Microscope ";s:8:"Products";s:2:"10";}
+a:5:{s:8:"Group_ID";s:3:"222";s:8:"Value_ID";s:4:"4616";s:5:"Value";s:7:"Mercury";s:9:"UnitValue";s:8:"Mercury ";s:8:"Products";s:1:"1";}
+a:5:{s:8:"Group_ID";s:3:"222";s:8:"Value_ID";s:4:"4613";s:5:"Value";s:12:"Metal Halide";s:9:"UnitValue";s:13:"Metal Halide ";s:8:"Products";s:1:"2";}
+a:5:{s:8:"Group_ID";s:3:"222";s:8:"Value_ID";s:5:"23075";s:5:"Value";s:8:"Screw In";s:9:"UnitValue";s:9:"Screw In ";s:8:"Products";s:1:"5";}
+a:5:{s:8:"Group_ID";s:3:"222";s:8:"Value_ID";s:4:"4611";s:5:"Value";s:11:"Sealed Beam";s:9:"UnitValue";s:12:"Sealed Beam ";s:8:"Products";s:1:"8";}
+a:5:{s:8:"Group_ID";s:3:"222";s:8:"Value_ID";s:4:"4615";s:5:"Value";s:6:"Sodium";s:9:"UnitValue";s:7:"Sodium ";s:8:"Products";s:2:"18";}
+a:5:{s:8:"Group_ID";s:3:"236";s:8:"Value_ID";s:4:"5661";s:5:"Value";s:7:"100-109";s:9:"UnitValue";s:10:"100-109 mm";s:8:"Products";s:1:"4";}
+a:5:{s:8:"Group_ID";s:3:"236";s:8:"Value_ID";s:4:"5664";s:5:"Value";s:7:"130-139";s:9:"UnitValue";s:10:"130-139 mm";s:8:"Products";s:1:"3";}
+a:5:{s:8:"Group_ID";s:3:"236";s:8:"Value_ID";s:4:"5665";s:5:"Value";s:7:"140-149";s:9:"UnitValue";s:10:"140-149 mm";s:8:"Products";s:1:"2";}
+a:5:{s:8:"Group_ID";s:3:"236";s:8:"Value_ID";s:4:"5666";s:5:"Value";s:7:"150-159";s:9:"UnitValue";s:10:"150-159 mm";s:8:"Products";s:2:"21";}
+a:5:{s:8:"Group_ID";s:3:"236";s:8:"Value_ID";s:4:"5673";s:5:"Value";s:7:"220-229";s:9:"UnitValue";s:10:"220-229 mm";s:8:"Products";s:1:"1";}
+a:5:{s:8:"Group_ID";s:3:"236";s:8:"Value_ID";s:4:"5678";s:5:"Value";s:7:"270-279";s:9:"UnitValue";s:10:"270-279 mm";s:8:"Products";s:1:"4";}
+a:5:{s:8:"Group_ID";s:3:"236";s:8:"Value_ID";s:4:"5680";s:5:"Value";s:7:"290-299";s:9:"UnitValue";s:10:"290-299 mm";s:8:"Products";s:1:"4";}
+a:5:{s:8:"Group_ID";s:3:"236";s:8:"Value_ID";s:4:"5654";s:5:"Value";s:5:"30-39";s:9:"UnitValue";s:8:"30-39 mm";s:8:"Products";s:1:"1";}
+a:5:{s:8:"Group_ID";s:3:"236";s:8:"Value_ID";s:4:"5687";s:5:"Value";s:7:"360-369";s:9:"UnitValue";s:10:"360-369 mm";s:8:"Products";s:1:"4";}
+a:5:{s:8:"Group_ID";s:3:"236";s:8:"Value_ID";s:4:"5689";s:5:"Value";s:7:"380-389";s:9:"UnitValue";s:10:"380-389 mm";s:8:"Products";s:1:"1";}
+a:5:{s:8:"Group_ID";s:3:"236";s:8:"Value_ID";s:4:"5655";s:5:"Value";s:5:"40-49";s:9:"UnitValue";s:8:"40-49 mm";s:8:"Products";s:2:"75";}
+a:5:{s:8:"Group_ID";s:3:"236";s:8:"Value_ID";s:4:"5656";s:5:"Value";s:5:"50-59";s:9:"UnitValue";s:8:"50-59 mm";s:8:"Products";s:2:"27";}
+a:5:{s:8:"Group_ID";s:3:"236";s:8:"Value_ID";s:4:"5657";s:5:"Value";s:5:"60-69";s:9:"UnitValue";s:8:"60-69 mm";s:8:"Products";s:2:"19";}
+a:5:{s:8:"Group_ID";s:3:"236";s:8:"Value_ID";s:4:"5658";s:5:"Value";s:5:"70-79";s:9:"UnitValue";s:8:"70-79 mm";s:8:"Products";s:1:"1";}
+a:5:{s:8:"Group_ID";s:3:"236";s:8:"Value_ID";s:4:"5659";s:5:"Value";s:5:"80-89";s:9:"UnitValue";s:8:"80-89 mm";s:8:"Products";s:1:"6";}
+a:5:{s:8:"Group_ID";s:3:"236";s:8:"Value_ID";s:4:"5660";s:5:"Value";s:5:"90-99";s:9:"UnitValue";s:8:"90-99 mm";s:8:"Products";s:1:"5";}

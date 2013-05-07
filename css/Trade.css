@@ -1,0 +1,48 @@
+#Header {
+	height:185px;
+	background-image:url(../images/template/trade/bg_header.png);
+	background-color: #fff;
+	background-position: top;
+}
+#Header ul.nav {
+	top: 30px;
+}
+#Header ul.nav li a {
+	color: #2a599d;
+}
+#Header .phone {
+	position: absolute;
+	top: 75px;
+	right: 16px;
+	font-weight: bold;
+	color: #2a599d;
+	text-align: right;
+}
+#Header .phone-extra {
+	color: #3f86ed;
+}
+#HeaderInner {
+	background-image:url(../images/template/trade/bg_headerRight.png);
+	background-position: top right;
+	background-repeat: no-repeat;
+}
+#Top {
+	height: 123px;
+	text-align: left;
+}
+#TopText {
+	color: #2a599d;
+	font-size: 22px;
+	font-weight: bold;
+	padding: 40px 20px;
+}
+#TopText span {
+	color: #3f86ed;
+	font-size: 13px;
+}
+#LeftNav {
+	top: 191px;
+}
+#RightNav {
+	top: 191px;
+}

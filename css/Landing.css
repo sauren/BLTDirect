@@ -1,0 +1,19 @@
+.LandingShapes {
+	margin: 10px 0 20px 0;
+}
+.LandingShapes table {
+	width: 100%;
+	empty-cells: show;
+}
+.LandingShapes table th {
+	padding: 5px;
+	border-bottom: 1px solid #aaa;
+}
+.LandingShapes table td {
+	padding: 5px;
+	text-align: center;
+	border-bottom: 1px dotted #aaa;
+}
+.LandingShapes table td.selected {
+	font-weight: bold;
+}

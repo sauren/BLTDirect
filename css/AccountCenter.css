@@ -1,0 +1,269 @@
+.creditNotice {
+	float: right;
+}
+.creditNotice h2 {
+	font-size: 14px;
+	font-weight: normal;
+}
+.creditNotice h3 {
+	font-weight: normal;
+	margin-top:-10px;
+}
+
+.mainCustomer {
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 218px;
+}
+.orders{
+	width:50%;
+	height: auto;
+	float:left;
+}
+
+.info {
+	margin-left: 9px;
+	vertical-align:bottom;
+	width:16px;
+	height:16px;
+	overflow:hidden;
+	background-position: 0 0;
+	background-image: url('../ignition/icons/standardGrey.png');
+	background-repeat: no-repeat;
+	background-position: -12px -9px;
+	cursor: pointer;
+}
+.ordersContainer {
+	width:100%;
+	height: auto;
+	float:left;
+	border: solid 1px #BAC7DA;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	position: relative;
+	overflow:hidden;
+	padding-bottom: 35px;
+}
+.returns{
+	width:48%;
+	height:auto;
+	float: right;
+	margin-top: 40px;
+
+}
+.returnsContainer {
+	width:100%;
+	height: auto;
+	float:right;
+	border: solid 1px #BAC7DA;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	overflow:hidden;
+	position: relative;
+	padding-bottom: 35px;
+}
+.enquiries{
+	width:48%;
+	height: 100%;
+	float:right;
+	margin-top:31px
+}
+
+.enquiriesContainer {
+	width:100%;
+	height:100%;
+	float:right;
+	border: solid 1px #BAC7DA;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	overflow:hidden;
+	position: relative;
+	padding-bottom: 35px;
+}
+.clear{
+	clear: both;
+}
+
+.processing{
+	width:30px;
+	height:23px;
+	background-image: url('../ignition/icons/status.png');
+	background-position: 4px -8px;
+}
+.complete {
+	width:30px;
+	height:23px;
+	background-image: url('../ignition/icons/status.png');
+	background-position: 4px -35px;
+}
+.attentionIcon {
+	width:30px;
+	height:23px;
+	background-image: url('../ignition/icons/status.png');
+	background-position: 4px -71px;
+}
+.cancelled {
+	width:30px;
+	height:23px;
+	background-image: url('../ignition/icons/status.png');
+	background-position: 4px -104px;
+}
+.despatched {
+	width:30px;
+	height:23px;
+	background-image: url('../ignition/icons/status.png');
+	background-position: 4px -39px;
+}
+
+.packing {
+	width:30px;
+	height:23px;
+	background-image: url('../ignition/icons/pending.png');
+	background-position: 12px -50px;
+}
+.new {
+	background-position: -9px -169px;
+	background-image: url('../ignition/icons/standardGrey.png');
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 16px;
+	overflow:hidden;
+	padding-left:19px;
+}
+.deleted {
+	background-position: -7px -138px;
+	background-image: url('../ignition/icons/standardGrey.png');
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 16px;
+	overflow:hidden;
+	padding-left:19px;
+}
+
+.return {
+	background-position: -12px -363px;
+	background-image: url('../ignition/icons/standardGrey.png');
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 16px;
+	padding-left:16px;
+}
+.duplicate {
+	background-position: -9px -233px;
+	background-image: url('../ignition/icons/standardGrey.png');
+	background-repeat: no-repeat;
+	width: 30px;
+	height: 23px;
+	padding-left:19px;
+}
+
+.openEnquiries {
+    background-image: url("../ignition/icons/status.png");
+    background-position: 0px -136px;
+    height: 23px;
+    width: 30px;
+}
+.closedEnquiries {
+    background-image: url("../ignition/icons/status.png");
+    background-position: 0px -104px;
+    height: 23px;
+    width: 30px;
+}
+.unreadEnquiries {
+	width:30px;
+	height:23px;
+	background-image: url('../ignition/icons/status.png');
+	background-position: 0px -71px;
+}
+
+
+.largeMore {
+	background-position: -7px -169px;
+	background-image: url('../ignition/icons/standardGrey.png');
+	padding-left:19px;
+}
+.more {
+	width:100%;
+	height: 22px;
+	background-color: #efefef;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+	padding-top:7px;
+	position: absolute;
+	bottom:  0px;
+}
+
+.hoverRegion .showOnHover,
+	tr .showOnHover{
+		display:none;
+	}
+	tr:hover .showOnHover,
+	.hoverRegion:hover .showOnHover{
+		display:inline-block;
+}
+
+	tr:hover .hideOnHover,
+	.hoverRegion:hover .hideOnHover{
+		display:none;
+}
+.optionsNav {
+	margin-top: -10px;
+}
+table.summaryTable td{
+	padding:5px;
+	line-height:16px;
+}
+table.summaryTable {
+	width:100%;
+	padding: 2px 14px 0;
+}
+table.summaryTable tr {
+	height: 25px;
+	border: none;
+	padding-bottom: 3px;
+}
+table.summaryTable tbody tr {
+	border-bottom: solid 1px #efefef;
+	margin-bottom: 5px;
+}
+table.summaryTable tbody td:hover {
+	cursor: pointer;
+}
+table.summaryTable tbody td {
+	border-bottom: solid 1px #efefef;
+}
+
+
+.optionsNav li {
+	display: inline-block;
+	display:-moz-box; 
+    *zoom:1; /* IE6/7 */  
+    *display:inline; /* IE6/7 */  
+	color: #c4c4c4;
+	padding: 5px 9px;
+	line-height: 16px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+.optionsNav li.ord {
+	background-color: #ffffff;
+	background-image: url('../ignition/icons/standardGrey.png');
+	background-repeat: no-repeat;
+	background-position: 12px -311px;
+}
+
+.optionsNav ul {
+	float: left;
+	padding:0 0px;
+}
+.numItems {
+	margin-bottom: 10px;
+	margin-right:10px;
+	line-height: 16px;
+	padding: 0 0px 3px;
+}

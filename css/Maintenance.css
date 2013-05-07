@@ -1,0 +1,14 @@
+html {
+	height: 100%;
+}
+body {
+	background-image: url(../images/logo_blt_3.gif);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-color: #fff;
+	text-align: center;
+	margin: 20px;
+	font-family: verdana, arial, helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+}

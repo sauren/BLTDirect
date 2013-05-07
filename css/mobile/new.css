@@ -1,0 +1,67 @@
+h1 {
+	font-size: 28px;
+	margin: 10px 0;
+}
+body, td, th {
+	font-size: 12px;
+	font-family: verdana, arial, sans-serif;
+	color: #4b5264;
+}
+.grid {
+	height: 314px;
+}
+.price-amount {
+	font-size: 26px;
+}
+
+.rightIcon {
+	text-align: right;
+	font-size: 130%;
+	font-style: italic;
+}
+
+.pad {
+	padding: 10px;
+}
+
+.tab-content-side {
+	float: none;
+	width: auto;
+}
+
+.tab-content-guttering {
+	margin: 0;
+	padding: 10px 0 0 0;
+}
+
+#Page {
+	width: auto;
+}
+
+
+/* Bulb finder
+*/
+
+.bulbFinder {
+	background-color: #e7eaf0;
+}
+
+.bulbFinder .filterOption {
+	padding: 5px 0;
+}
+
+.bulbFinder label {
+	display: block;
+	padding-bottom: 2px;
+}
+
+
+.bulbFinder select {
+	width: 100%;
+	font-size: 15px;
+}
+
+.bulbFinder .submit {
+	width: 100%;
+	font-size: 120%;
+}
