@@ -1,1 +1,0 @@
-<Text>[SAGE_NOTE_TEXT]</Text>

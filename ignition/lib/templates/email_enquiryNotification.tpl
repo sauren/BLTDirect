@@ -1,1 +1,0 @@
-<p>Enquiry Ref. #[PREFIX][ENQUIRYID] requires your immediate attention. Please review this enquiry and take any appropriate action.</p>

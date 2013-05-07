@@ -1,2 +1,0 @@
-<p>Thank you for your time today. Sorry we could not help you on this occassion, but please keep this discount coupon for future use on our website. This coupon entitles you to a [DISCOUNT]% discount.</p>
-<p>Coupon: <strong>[COUPON]</strong></p>

@@ -1,2 +1,0 @@
-<p>Thank you for your telephone enquiry today. Sorry we could not help you on this occassion, but please keep this introduction coupon for future use our website.  Once again thank you for your enquiry. This coupon entitles you to a [DISCOUNT]% discount.</p>
-<p>Coupon: <strong>[COUPON]</strong></p>

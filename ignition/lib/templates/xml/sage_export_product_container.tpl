@@ -1,1 +1,0 @@
-<Product>[SAGE_PRODUCT]</Product>

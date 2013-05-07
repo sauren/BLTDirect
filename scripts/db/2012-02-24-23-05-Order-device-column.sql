@@ -1,2 +1,0 @@
-ALTER TABLE `orders`
-  ADD COLUMN `Device` VARCHAR(120) NOT NULL DEFAULT '' AFTER `Status`;

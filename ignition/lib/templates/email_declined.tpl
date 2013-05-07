@@ -1,1 +1,0 @@
-Thank you for your order. However, we have been unable to process the order due to incorrect payment details. Please could you contact customer services on 01473 559 501 to discuss this further.

@@ -1,1 +1,0 @@
-<Invoice>[SAGE_INVOICE]</Invoice>
